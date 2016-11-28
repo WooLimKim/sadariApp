@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDFEE841DD546FF0052495D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFEE831DD546FF0052495D /* AppDelegate.swift */; };
+		1DDFEE861DD546FF0052495D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFEE851DD546FF0052495D /* ViewController.swift */; };
+		1DDFEE891DD546FF0052495D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDFEE871DD546FF0052495D /* Main.storyboard */; };
+		1DDFEE8B1DD546FF0052495D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDFEE8A1DD546FF0052495D /* Assets.xcassets */; };
+		1DDFEE8E1DD546FF0052495D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDFEE8C1DD546FF0052495D /* LaunchScreen.storyboard */; };
+		1DDFEE991DD547000052495D /* sadariAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFEE981DD547000052495D /* sadariAppTests.swift */; };
+		1DDFEEA41DD547000052495D /* sadariAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFEEA31DD547000052495D /* sadariAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DDFEE951DD547000052495D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DDFEE781DD546FF0052495D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DDFEE7F1DD546FF0052495D;
+			remoteInfo = sadariApp;
+		};
+		1DDFEEA01DD547000052495D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DDFEE781DD546FF0052495D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DDFEE7F1DD546FF0052495D;
+			remoteInfo = sadariApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DDFEE801DD546FF0052495D /* sadariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sadariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDFEE831DD546FF0052495D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DDFEE851DD546FF0052495D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DDFEE881DD546FF0052495D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DDFEE8A1DD546FF0052495D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DDFEE8D1DD546FF0052495D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DDFEE8F1DD546FF0052495D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDFEE941DD547000052495D /* sadariAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadariAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDFEE981DD547000052495D /* sadariAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sadariAppTests.swift; sourceTree = "<group>"; };
+		1DDFEE9A1DD547000052495D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDFEE9F1DD547000052495D /* sadariAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadariAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDFEEA31DD547000052495D /* sadariAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sadariAppUITests.swift; sourceTree = "<group>"; };
+		1DDFEEA51DD547000052495D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDFEE7D1DD546FF0052495D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE911DD547000052495D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE9C1DD547000052495D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDFEE771DD546FF0052495D = {
+			isa = PBXGroup;
+			children = (
+				1DDFEE821DD546FF0052495D /* sadariApp */,
+				1DDFEE971DD547000052495D /* sadariAppTests */,
+				1DDFEEA21DD547000052495D /* sadariAppUITests */,
+				1DDFEE811DD546FF0052495D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDFEE811DD546FF0052495D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDFEE801DD546FF0052495D /* sadariApp.app */,
+				1DDFEE941DD547000052495D /* sadariAppTests.xctest */,
+				1DDFEE9F1DD547000052495D /* sadariAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDFEE821DD546FF0052495D /* sadariApp */ = {
+			isa = PBXGroup;
+			children = (
+				1DDFEE831DD546FF0052495D /* AppDelegate.swift */,
+				1DDFEE851DD546FF0052495D /* ViewController.swift */,
+				1DDFEE871DD546FF0052495D /* Main.storyboard */,
+				1DDFEE8A1DD546FF0052495D /* Assets.xcassets */,
+				1DDFEE8C1DD546FF0052495D /* LaunchScreen.storyboard */,
+				1DDFEE8F1DD546FF0052495D /* Info.plist */,
+			);
+			path = sadariApp;
+			sourceTree = "<group>";
+		};
+		1DDFEE971DD547000052495D /* sadariAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDFEE981DD547000052495D /* sadariAppTests.swift */,
+				1DDFEE9A1DD547000052495D /* Info.plist */,
+			);
+			path = sadariAppTests;
+			sourceTree = "<group>";
+		};
+		1DDFEEA21DD547000052495D /* sadariAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDFEEA31DD547000052495D /* sadariAppUITests.swift */,
+				1DDFEEA51DD547000052495D /* Info.plist */,
+			);
+			path = sadariAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDFEE7F1DD546FF0052495D /* sadariApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDFEEA81DD547000052495D /* Build configuration list for PBXNativeTarget "sadariApp" */;
+			buildPhases = (
+				1DDFEE7C1DD546FF0052495D /* Sources */,
+				1DDFEE7D1DD546FF0052495D /* Frameworks */,
+				1DDFEE7E1DD546FF0052495D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sadariApp;
+			productName = sadariApp;
+			productReference = 1DDFEE801DD546FF0052495D /* sadariApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DDFEE931DD547000052495D /* sadariAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDFEEAB1DD547000052495D /* Build configuration list for PBXNativeTarget "sadariAppTests" */;
+			buildPhases = (
+				1DDFEE901DD547000052495D /* Sources */,
+				1DDFEE911DD547000052495D /* Frameworks */,
+				1DDFEE921DD547000052495D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DDFEE961DD547000052495D /* PBXTargetDependency */,
+			);
+			name = sadariAppTests;
+			productName = sadariAppTests;
+			productReference = 1DDFEE941DD547000052495D /* sadariAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DDFEE9E1DD547000052495D /* sadariAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDFEEAE1DD547000052495D /* Build configuration list for PBXNativeTarget "sadariAppUITests" */;
+			buildPhases = (
+				1DDFEE9B1DD547000052495D /* Sources */,
+				1DDFEE9C1DD547000052495D /* Frameworks */,
+				1DDFEE9D1DD547000052495D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DDFEEA11DD547000052495D /* PBXTargetDependency */,
+			);
+			name = sadariAppUITests;
+			productName = sadariAppUITests;
+			productReference = 1DDFEE9F1DD547000052495D /* sadariAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDFEE781DD546FF0052495D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = iMac05;
+				TargetAttributes = {
+					1DDFEE7F1DD546FF0052495D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1DDFEE931DD547000052495D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DDFEE7F1DD546FF0052495D;
+					};
+					1DDFEE9E1DD547000052495D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DDFEE7F1DD546FF0052495D;
+					};
+				};
+			};
+			buildConfigurationList = 1DDFEE7B1DD546FF0052495D /* Build configuration list for PBXProject "sadariApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDFEE771DD546FF0052495D;
+			productRefGroup = 1DDFEE811DD546FF0052495D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDFEE7F1DD546FF0052495D /* sadariApp */,
+				1DDFEE931DD547000052495D /* sadariAppTests */,
+				1DDFEE9E1DD547000052495D /* sadariAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDFEE7E1DD546FF0052495D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDFEE8E1DD546FF0052495D /* LaunchScreen.storyboard in Resources */,
+				1DDFEE8B1DD546FF0052495D /* Assets.xcassets in Resources */,
+				1DDFEE891DD546FF0052495D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE921DD547000052495D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE9D1DD547000052495D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDFEE7C1DD546FF0052495D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDFEE861DD546FF0052495D /* ViewController.swift in Sources */,
+				1DDFEE841DD546FF0052495D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE901DD547000052495D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDFEE991DD547000052495D /* sadariAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDFEE9B1DD547000052495D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDFEEA41DD547000052495D /* sadariAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DDFEE961DD547000052495D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DDFEE7F1DD546FF0052495D /* sadariApp */;
+			targetProxy = 1DDFEE951DD547000052495D /* PBXContainerItemProxy */;
+		};
+		1DDFEEA11DD547000052495D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DDFEE7F1DD546FF0052495D /* sadariApp */;
+			targetProxy = 1DDFEEA01DD547000052495D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DDFEE871DD546FF0052495D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDFEE881DD546FF0052495D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DDFEE8C1DD546FF0052495D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDFEE8D1DD546FF0052495D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DDFEEA61DD547000052495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DDFEEA71DD547000052495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DDFEEA91DD547000052495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sadariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DDFEEAA1DD547000052495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sadariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1DDFEEAC1DD547000052495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sadariAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sadariApp.app/sadariApp";
+			};
+			name = Debug;
+		};
+		1DDFEEAD1DD547000052495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sadariAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sadariApp.app/sadariApp";
+			};
+			name = Release;
+		};
+		1DDFEEAF1DD547000052495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sadariAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sadariApp;
+			};
+			name = Debug;
+		};
+		1DDFEEB01DD547000052495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sadariAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multi.sadariAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sadariApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDFEE7B1DD546FF0052495D /* Build configuration list for PBXProject "sadariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDFEEA61DD547000052495D /* Debug */,
+				1DDFEEA71DD547000052495D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDFEEA81DD547000052495D /* Build configuration list for PBXNativeTarget "sadariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDFEEA91DD547000052495D /* Debug */,
+				1DDFEEAA1DD547000052495D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DDFEEAB1DD547000052495D /* Build configuration list for PBXNativeTarget "sadariAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDFEEAC1DD547000052495D /* Debug */,
+				1DDFEEAD1DD547000052495D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DDFEEAE1DD547000052495D /* Build configuration list for PBXNativeTarget "sadariAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDFEEAF1DD547000052495D /* Debug */,
+				1DDFEEB01DD547000052495D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DDFEE781DD546FF0052495D /* Project object */;
+}
